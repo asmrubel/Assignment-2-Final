@@ -133,3 +133,54 @@ plant-card img {
   background: #cd4e04;
 }
 
+.flower-lover {
+
+  margin: 200px auto;
+  
+}
+
+
+.flower-lover-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flower-image {
+  position: relative;
+}
+
+.flower-image img {
+  width: 100%;
+  
+}
+
+.flower-image .badge {
+  position: absolute;
+  top: -150px;
+  right:-100px;
+  width: 286px;
+  height: 286px;
+}
+
+.flower-text {
+  flex: 1;
+}
+
+.flower-text h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.flower-text ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.50);
+}
+
+.flower-text li {
+  margin-bottom: 16px;
+  font-size: 22px;
+}
