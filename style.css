@@ -78,3 +78,58 @@ navbar-logo img {
   width: 100%;
   flex: 1;
 }
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.our-plant {
+  text-align: center;
+}
+
+.our-plant h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.our {
+  color: #E95A08;
+  font-weight: 800;
+}
+
+.our-plant p {
+  color: rgba(0, 0, 0, 0.50);
+  margin-bottom: 40px;
+  font-size: 22px;
+  align-items: center;
+  
+}
+
+.plant-card {
+  
+  padding: 5px;
+}
+
+plant-card img {
+  width: 100%;
+  height: 323px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.plant-card button {
+  padding: 8px 16px;
+  background: #E95A08;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width:100%;
+  
+}
+
+.plant-card button:hover {
+  background: #cd4e04;
+}
+
