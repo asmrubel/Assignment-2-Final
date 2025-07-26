@@ -37,3 +37,44 @@ navbar-logo img {
 .navbar-menu li:nth-child(4) a {
   font-weight: bold;
 }
+
+
+.banner {
+
+  margin: 100px 100px;
+}
+
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.banner-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 570px;
+
+
+}
+
+.banner-left h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.banner-left .orange {
+  color: #E95A08;
+  font-weight: 800;
+}
+
+.banner-left p {
+  color:rgba(0, 0, 0, 0.50);
+  font-size: 22px;
+}
+
+.banner-right img {
+  width: 100%;
+  flex: 1;
+}
