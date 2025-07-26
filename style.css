@@ -184,3 +184,103 @@ plant-card img {
   margin-bottom: 16px;
   font-size: 22px;
 }
+
+.latest-deals {
+  text-align: center;
+}
+
+.latest-deals h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.latest-deals h2 .orange {
+  color: #e4571c;
+  font-weight: 700;
+}
+
+.latest-deals p {
+  color: #666;
+  font-size: 22px;
+  font-weight: 400;
+  max-width: 888px;
+  margin: 20px auto;
+}
+
+
+.promo {
+  padding: 60px 20px;
+  margin: 100px auto;
+}
+
+.promo-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.promo-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.promo-right {
+  width:70%;
+  position: relative;
+  border-radius: 12px;
+
+}
+
+.promo-box {
+  position: relative;
+  border-radius: 12px;
+  
+  
+}
+
+.promo-text {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color: #fff;
+}
+
+.promo-text.center {
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+}
+
+.promo-text a {
+  color: rgb(255, 255, 255);
+  padding: 6px 14px;
+  font-size: 15px;
+}
+
+.promo-text h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.image-wrapper .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.121), rgba(99, 97, 97, 0.696));
+}
